@@ -1,0 +1,16 @@
+.button-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    font-size: 20px;
+    font-weight: 500;
+    font-weight: bolder;
+    text-decoration: none; /* Remove underline */
+    border-radius: 30px; /* Rounded corners */
+    transition: background-color 0.3s;
+  }
+
+  .button-link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }

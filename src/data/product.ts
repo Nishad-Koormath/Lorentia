@@ -1,0 +1,171 @@
+export const products = [
+  {
+    id: 1,
+    name: "Royal Oud & Amber",
+    price: 389,
+    description: "A majestic blend of rare oud and golden amber",
+    image: "/361d862ec03600c0049e4cb24fc9b0f2.jpg",
+  },
+  {
+    id: 2,
+    name: "Velvet Rose Noir",
+    price: 245,
+    description: "A captivating fragrance of dark roses and warm spices",
+    image: "/9e2ad2d6b8bad7c6744610073b7cd612.jpg",
+  },
+  {
+    id: 3,
+    name: "Imperial Jasmine Essence",
+    price: 320,
+    description: "A regal essence of jasmine with a hint of citrus",
+    image: "/3ae51e3600d80c607d90ca9e1491e68a.jpg",
+  },
+  {
+    id: 4,
+    name: "Mystic Musk",
+    price: 410,
+    description: "A sensual fragrance with notes of musk and vanilla",
+    image: "/eea8e15fc6258be021b50ba6d33afe41.jpg",
+  },
+  {
+    id: 5,
+    name: "Sapphire Citrus",
+    price: 199,
+    description: "A refreshing blend of citrus with a sparkling finish",
+    image: "/dee9eebca6323ac1d3a194e6a1d9b6b2.jpg",
+  },
+  {
+    id: 6,
+    name: "Golden Vanilla Absolute",
+    price: 365,
+    description: "An indulgent vanilla scent with a touch of golden honey",
+    image: "/d185717f59e4446bc22476fe51873165.jpg",
+  },
+  {
+    id: 7,
+    name: "Velvet Vetiver",
+    price: 380,
+    description: "A sophisticated fragrance of vetiver and rich leather",
+    image: "/11e5cb74abd170a090a14d9434fa5505.jpg",
+  },
+  {
+    id: 8,
+    name: "Velvet Vetiver",
+    price: 420,
+    description: "A sophisticated fragrance of vetiver and rich leather",
+    image: "/a038abeb049665a194ea6d7dcf73cfeb.jpg",
+  },
+  {
+    id: 9,
+    name: "Velvet Vetiver",
+    price: 380,
+    description: "A sophisticated fragrance of vetiver and rich leather",
+    image: "/10949baad2b340d0d616576d1adeb5fa.jpg",
+  },
+  {
+    id: 10,
+    name: "Ethereal White Orchid",
+    price: 470,
+    description: "An elegant floral fragrance with notes of white orchid",
+    image: "/5172a763c368d5d3521a3c32ceba780a.jpg",
+  },
+
+  {
+    id: 11,
+    name: "Amber Woods Mystique",
+    price: 289,
+    description: "A warm, woody scent with a luxurious amber base",
+    image: "/4c80d00062b08b35970621aa1dbade6c.jpg",
+  },
+  {
+    id: 12,
+    name: "Crimson Peony",
+    price: 215,
+    description: "A bold and vibrant floral perfume with peony highlights",
+    image: "/4ef671e1e632f9ebf90032624717b781.jpg",
+  },
+  {
+    id: 13,
+    name: "Euphoria Lavender",
+    price: 240,
+    description: "A calming and luxurious lavender scent",
+    image: "/5d6081cc11c03b8d73887f2253a0b950.jpg",
+  },
+  {
+    id: 14,
+    name: "Citrus & Cedar Harmony",
+    price: 280,
+    description: "A harmonious blend of citrus and cedarwood",
+    image: "/ab59c0717dfa98a13b3ec295ce09534f.jpg",
+  },
+  {
+    id: 15,
+    name: "Golden Nectar",
+    price: 490,
+    description: "A rich, honey-like fragrance with floral notes",
+    image: "/b983936d254d229052417abc9390a7fc.jpg",
+  },
+  {
+    id: 16,
+    name: "Caviar Oud Infusion",
+    price: 525,
+    description: "A unique infusion of oud and caviar accords",
+    image: "/08f972c70c89212b8040387873c24e9f.jpg",
+  },
+  {
+    id: 17,
+    name: "Blush Magnolia",
+    price: 310,
+    description: "A soft and elegant magnolia fragrance",
+    image: "/8623b6c78e0ec3307f9cba19db7493b4.jpg",
+  },
+  {
+    id: 18,
+    name: "Midnight Blossom",
+    price: 340,
+    description: "An intoxicating floral blend with evening jasmine",
+    image: "/1dde0f8764a2f831e052141e95ee078a.jpg",
+  },
+  {
+    id: 19,
+    name: "Silver Sea Breeze",
+    price: 290,
+    description: "A refreshing marine fragrance with sparkling notes",
+    image: "/f7126adaebc04f60f745de695de618e8.jpg",
+  },
+  {
+    id: 20,
+    name: "Jade Tea Reverie",
+    price: 355,
+    description: "A serene fragrance of green tea and soft florals",
+    image: "/d7f1a0808f2836ebc5d99a0ca1ecaf35.jpg",
+  },
+];
+
+// export const products = [
+//   {
+//     id: 1,
+//     name: "Royal Oud & Amber",
+//     price: 389,
+//     description: "A majestic blend of rare oud and golden amber",
+//     //   image: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&q=80'
+//     image:
+//       "https://i.pinimg.com/736x/d7/f1/a0/d7f1a0808f2836ebc5d99a0ca1ecaf35.jpg",
+//   },
+//   {
+//     id: 2,
+//     name: "Midnight Jasmine",
+//     price: 299,
+//     description: "Enchanting jasmine blooms under starlit skies",
+//     image:
+//       "https://yi-files.yellowimages.com/products/1885000/1885913/3036618-cover.jpg",
+//   },
+//   {
+//     id: 3,
+//     name: "Velvet Rose Noir",
+//     price: 359,
+//     description: "Dark roses wrapped in mysterious vanilla",
+//     image:
+//       "https://images.unsplash.com/photo-1557170334-a9632e77c6e4?auto=format&fit=crop&q=80",
+//   },
+// ];
