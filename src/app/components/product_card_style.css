@@ -9,3 +9,8 @@
 .card-img-top:hover {
   transform: scale(1.05); 
 }
+.product-link {
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent element */
+}
+

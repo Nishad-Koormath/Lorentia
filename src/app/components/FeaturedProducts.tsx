@@ -6,7 +6,7 @@ const FeaturedProducts = () => {
   const all_products = products
   const featured_products = all_products.slice(0,8)
   return (
-    <section className="py-5 bg-dark text-white">
+    <section className="py-5  text-white" style={{ backgroundColor: "#566275" }}>
       <div className="container">
         <h1 className="display-4 text-center mb-4 text-warning fw-bolder">
           Signature Collection

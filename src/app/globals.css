@@ -1,3 +1,21 @@
+:root {
+  --font-playfair-display: 'Playfair Display', serif;
+}
+
+body {
+  font-family: var(--font-playfair-display);
+}
+
+
+
+
+
+
+
+
+
+
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;

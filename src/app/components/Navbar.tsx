@@ -2,9 +2,18 @@
 import React, { useState } from "react";
 import MobileMenu from "./MobileMenu";
 import "./navbar.css";
+import Link from "next/link";
+import { useCart } from "../contexts/CartContext";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  // const { cartItems } = useCart();
+
+  // const totalQuantity = cartItems.reduce(
+  //   (total, item) => total + item.quantity,
+  //   0
+  // );
 
   return (
     <nav className="glass-effect fixed-top">
@@ -39,10 +48,12 @@ const Navbar = () => {
             <i className="bi bi-person fs-5 text-light cursor-pointer"></i>
             {/* Shopping Bag Icon */}
             <div className="position-relative">
-              <i className="bi bi-bag fs-5 text-light cursor-pointer"></i>
-              <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                0
-              </span>
+              <Link href={"/cart"}>
+                <i className="bi bi-bag fs-5 text-light"></i>
+                <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  {/* {totalQuantity} */} 0
+                </span>
+              </Link>
             </div>
             {/* Mobile Menu Toggle */}
             <MobileMenu

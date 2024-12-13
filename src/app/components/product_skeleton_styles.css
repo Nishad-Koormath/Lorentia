@@ -1,0 +1,48 @@
+/* Skeleton Loader Styling */
+.skeleton {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: skeleton-loading 2s infinite;
+    border-radius: 4px;
+  }
+  
+  /* Specific Skeleton Parts */
+  .skeleton-img {
+    height: 200px;
+    width: 100%;
+  }
+  
+  .skeleton-title {
+    height: 20px;
+    width: 70%;
+    margin: 10px auto;
+  }
+  
+  .skeleton-text {
+    height: 16px;
+    width: 90%;
+    margin: 10px auto;
+  }
+  
+  .skeleton-price {
+    height: 20px;
+    width: 50%;
+    margin: 10px auto;
+  }
+  
+  .skeleton-button {
+    height: 36px;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  /* Skeleton Animation */
+  @keyframes skeleton-loading {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+  

@@ -1,10 +1,11 @@
+"use client";
 import type { Metadata } from "next";
 import FeaturedProducts from "./components/FeaturedProducts";
-import "./home_page.css"
+import "./home_page.css";
 
-export const metadata: Metadata = {
-  title: "Lorentia | Home",
-};
+// export const metadata: Metadata = {
+//   title: "Lorentia | Home",
+// };
 
 export default function Home() {
   return (
@@ -24,14 +25,16 @@ export default function Home() {
 
         <div className="position-relative text-center text-white px-3">
           <h1 className="display-4 display-md-3 display-lg-1 font-serif mb-4 fw-bold">
-          Lorentia
+            Lorentia
           </h1>
           <p className="lead mb-5">
             Where luxury meets artistry. Experience the finest fragrances
             crafted for the extraordinary.
           </p>
           {/* <Button size="lg">Discover Our Collection</Button> */}
-          <a href="#" className="button-link">Discover Our Collection</a>
+          <a href="/collections" className="button-link">
+            Discover Our Collection
+          </a>
         </div>
       </div>
       <FeaturedProducts />

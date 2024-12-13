@@ -88,7 +88,7 @@ export const products = [
     id: 13,
     name: "Euphoria Lavender",
     price: 240,
-    description: "A calming and luxurious lavender scent",
+    description: "A calming and luxurious lavender scent with subtle floral undertones.",
     image: "/5d6081cc11c03b8d73887f2253a0b950.jpg",
   },
   {
@@ -116,7 +116,7 @@ export const products = [
     id: 17,
     name: "Blush Magnolia",
     price: 310,
-    description: "A soft and elegant magnolia fragrance",
+    description: "A soft and elegant magnolia fragrance with a touch of sweet vanilla.",
     image: "/8623b6c78e0ec3307f9cba19db7493b4.jpg",
   },
   {
@@ -141,31 +141,3 @@ export const products = [
     image: "/d7f1a0808f2836ebc5d99a0ca1ecaf35.jpg",
   },
 ];
-
-// export const products = [
-//   {
-//     id: 1,
-//     name: "Royal Oud & Amber",
-//     price: 389,
-//     description: "A majestic blend of rare oud and golden amber",
-//     //   image: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&q=80'
-//     image:
-//       "https://i.pinimg.com/736x/d7/f1/a0/d7f1a0808f2836ebc5d99a0ca1ecaf35.jpg",
-//   },
-//   {
-//     id: 2,
-//     name: "Midnight Jasmine",
-//     price: 299,
-//     description: "Enchanting jasmine blooms under starlit skies",
-//     image:
-//       "https://yi-files.yellowimages.com/products/1885000/1885913/3036618-cover.jpg",
-//   },
-//   {
-//     id: 3,
-//     name: "Velvet Rose Noir",
-//     price: 359,
-//     description: "Dark roses wrapped in mysterious vanilla",
-//     image:
-//       "https://images.unsplash.com/photo-1557170334-a9632e77c6e4?auto=format&fit=crop&q=80",
-//   },
-// ];
