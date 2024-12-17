@@ -2,10 +2,9 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <div className="bg-dark text-white">
       <div className="pt-5">
         <div className="container py-5">
-          <h1 className="display-4 text-center  mb-5">Contact Us</h1>
+          <h1 className="display-4 text-center text-warning fw-bolder mb-5">Contact Us</h1>
 
           <div className="row g-5">
             <div className="col-md-6">
@@ -86,7 +85,6 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

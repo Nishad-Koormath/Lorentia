@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div className="bg-dark text-white">
+    <div className="text-white">
       <div className="position-relative" style={{ height: "24rem" }}>
         <div
           className="position-absolute top-0 start-0 w-100 h-100 bg-cover bg-center"
@@ -15,19 +15,8 @@ const AboutUs = () => {
         >
           <div className="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-50"></div>
         </div>
-        {/* <div
-            className="position-absolute w-100 h-100 bg-cover bg-center"
-            style={{
-              backgroundImage:
-                'url("https://cdn.create.vista.com/api/media/small/52542539/stock-photo-perfume")',
-              backgroundSize: "contain",
-              backgroundPosition: "center",
-            }}
-          >
-            <div className="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
-          </div> */}
         <div className="position-relative d-flex align-items-center justify-content-center h-100">
-          <h1 className="display-4 fw-bold text-white">Our Story</h1>
+          <h1 className="display-4 fw-bold text-warning">Our Story</h1>
         </div>
       </div>
 

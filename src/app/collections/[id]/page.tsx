@@ -55,6 +55,7 @@ const DetailPage = (props: DetailPageProps) => {
               <button
                 className="btn btn-primary btn-lg w-100"
                 style={{ backgroundColor: "#FF9900", borderColor: "#FF9900" }}
+                onClick={() => }
               >
                 Add to Cart
               </button>
