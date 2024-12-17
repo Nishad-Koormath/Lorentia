@@ -33,15 +33,15 @@ const ProductCard = ({
             <h5 className="card-title">{name}</h5>
 
             <p className="card-text">{description}</p>
-            <p>${price}</p>
+            <h4>${price}</h4>
           </Link>
           <button
-            className="btn btn-primary"
-            onClick={() => dispatch({ type: "ADD_ITEM", payload: product })}
-          >Add to Cart</button>
-          {/* <a href="#" className="btn btn-primary">
-            Add to Cart
-          </a> */}
+                className="btn btn-primary btn-lg w-100"
+                // style={{ backgroundColor: "#FF9900", borderColor: "#FF9900" }}
+                onClick={() => dispatch({ type: "ADD_ITEM", payload:product}) }
+              >
+                Add to Cart
+              </button>
         </div>
       </div>
     </div>

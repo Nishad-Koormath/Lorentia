@@ -3,6 +3,7 @@ import ProductCard from "@/app/components/ProductCard";
 import { products } from "@/data/product";
 import React, { use } from "react";
 import "./styles.css"
+import { useCart } from "@/app/contexts/CartContext";
 
 // Define the interface for the props
 interface DetailPageProps {
@@ -12,6 +13,7 @@ interface DetailPageProps {
 }
 
 const DetailPage = (props: DetailPageProps) => {
+  const { dispatch } =useCart()
   const params = use(props.params);
   const productId = parseInt(params.id, 10);
   const product = products.find((prod) => prod.id === productId);
@@ -55,7 +57,7 @@ const DetailPage = (props: DetailPageProps) => {
               <button
                 className="btn btn-primary btn-lg w-100"
                 style={{ backgroundColor: "#FF9900", borderColor: "#FF9900" }}
-                onClick={() => }
+                onClick={() => dispatch({ type: "ADD_ITEM", payload:product}) }
               >
                 Add to Cart
               </button>
