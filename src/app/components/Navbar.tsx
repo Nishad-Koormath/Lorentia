@@ -7,13 +7,9 @@ import { useCart } from "../contexts/CartContext";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const { cart } = useCart();
 
-  // const { cartItems } = useCart();
-
-  // const totalQuantity = cartItems.reduce(
-  //   (total, item) => total + item.quantity,
-  //   0
-  // );
+  const totalQuantity = cart.reduce((total, item) => total + item.quantity, 0);
 
   return (
     <nav className="glass-effect fixed-top">
@@ -24,18 +20,24 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="d-none d-md-flex gap-3">
-            <a href="/" className="text-light text-decoration-none">
+            <Link href="/" className="text-light text-decoration-none">
               Home
-            </a>
-            <a href="/collections" className="text-light text-decoration-none">
+            </Link>
+            <Link
+              href="/collections"
+              className="text-light text-decoration-none"
+            >
               Collections
-            </a>
-            <a href="/about-us" className="text-light text-decoration-none">
+            </Link>
+            <Link href="/about-us" className="text-light text-decoration-none">
               About
-            </a>
-            <a href="/contact-us" className="text-light text-decoration-none">
+            </Link>
+            <Link
+              href="/contact-us"
+              className="text-light text-decoration-none"
+            >
               Contact
-            </a>
+            </Link>
           </div>
 
           {/* Action Icons and Mobile Menu */}
@@ -51,7 +53,7 @@ const Navbar = () => {
               <Link href={"/cart"}>
                 <i className="bi bi-bag fs-5 text-light"></i>
                 <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                  {/* {totalQuantity} */} 0
+                  {totalQuantity}
                 </span>
               </Link>
             </div>

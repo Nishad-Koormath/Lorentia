@@ -1,11 +1,15 @@
-"use client";
+
 import { products } from "@/data/product";
 import React from "react";
 import ProductCard from "../components/ProductCard";
-import { useCart } from "../contexts/CartContext";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Lorentia | Collections",
+};
 
 const collections = () => {
-  const { dispatch } = useCart();
+
   return (
     <section className="py-5  text-white" style={{backgroundColor:"#566275", color:"#FFFFFF"}}>
       <div className="container">

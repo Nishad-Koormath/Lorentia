@@ -1,4 +1,10 @@
+
 import React from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Lorentia | About",
+};
 
 const AboutUs = () => {
   return (
@@ -31,7 +37,7 @@ const AboutUs = () => {
 
           <h2 className="h3 fw-bold mb-4">Our Philosophy</h2>
           <p className="mb-4">
-            We believe that a fragrance is more than just a scent - it's an
+            We believe that a fragrance is more than just a scent - it&apos;s an
             expression of individuality, a mark of sophistication, and a
             personal signature. Each Perfumora creation is crafted with
             meticulous attention to detail, combining traditional perfumery

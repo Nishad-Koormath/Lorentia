@@ -1,11 +1,11 @@
-"use client";
 import type { Metadata } from "next";
 import FeaturedProducts from "./components/FeaturedProducts";
 import "./home_page.css";
+import Link from "next/link";
 
-// export const metadata: Metadata = {
-//   title: "Lorentia | Home",
-// };
+export const metadata: Metadata = {
+  title: "Lorentia | Home",
+};
 
 export default function Home() {
   return (
@@ -31,10 +31,9 @@ export default function Home() {
             Where luxury meets artistry. Experience the finest fragrances
             crafted for the extraordinary.
           </p>
-          {/* <Button size="lg">Discover Our Collection</Button> */}
-          <a href="/collections" className="button-link">
+          <Link href="/collections" className="button-link">
             Discover Our Collection
-          </a>
+          </Link>
         </div>
       </div>
       <FeaturedProducts />

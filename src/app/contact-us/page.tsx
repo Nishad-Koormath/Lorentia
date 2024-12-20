@@ -1,4 +1,10 @@
 import React from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Lorentia | Contact",
+};
+
 
 const ContactUs = () => {
   return (
@@ -31,7 +37,7 @@ const ContactUs = () => {
                 <div className="mb-3">
                   <label className="form-label">Message</label>
                   <textarea
-                    rows="4"
+                    rows={4}
                     className="form-control"
                     placeholder="Your Message"
                   ></textarea>
