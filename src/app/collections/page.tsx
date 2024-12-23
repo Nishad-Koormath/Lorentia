@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const collections = () => {
 
   return (
-    <section className="py-5  text-white" style={{backgroundColor:"#566275", color:"#FFFFFF"}}>
+    <section className="py-5 text-white" style={{backgroundColor:"#566275", color:"#FFFFFF"}}>
       <div className="container">
         <h1 className="display-4 text-center mt-5 mb-4 text-warning fw-bolder">
           Collection
@@ -20,8 +20,8 @@ const collections = () => {
           Discover our most coveted fragrances, each bottle a masterpiece of
           olfactory artistry
         </p>
-        <div className="container-fluid">
-          <div className="row row-cols-1 row-cols-sm-2  row-cols-lg-4 g-4">
+        <div className="products">
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
             {products.map((product) => (
               <ProductCard key={product.id} {...product} />
             ))}

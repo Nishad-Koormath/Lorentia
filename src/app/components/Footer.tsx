@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-dark text-light">
-      <div className="container border-top border-secondary py-5">
+      <div className="container pt-5">
         <div className="row">
           <div className="col-md-3 mb-4">
             <h3 className="h5 font-serif mb-3">Lorentia</h3>
@@ -72,6 +72,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className="border-top border-secondary py-2"></div>
         <div className="text-center ">
           <p>&copy; 2024 Lorentia. All rights reserved.</p>
         </div>
