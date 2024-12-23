@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    footer h3,
+    footer h4,
+    footer p,
+    footer ul {
+      text-align: center;
+    }
+  }
+  
